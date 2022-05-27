@@ -1,5 +1,5 @@
 import React from "react";
-import logo from './coding.gif'
+import logo from '../images/coding.gif'
 
 export default function About() {
     return (
@@ -11,7 +11,7 @@ export default function About() {
                         <br className="hidden lg:inline-block" /> Et voici mon portfolio
                     </h1>
                     <p className="mb-8 leading-relaxed">
-                        Sur mon portfolio vous pouvez retrouvez les différents projets que j'ai pu réalisé ainsi que mes compétences.
+                        Sur mon portfolio vous pouvez retrouver les différents projets que j'ai pu réalisés ainsi que mes compétences.
                     </p>
                     <div className="flex justify-center">
                         <a

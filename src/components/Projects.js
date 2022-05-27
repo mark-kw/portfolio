@@ -1,7 +1,6 @@
 import { CodeIcon } from "@heroicons/react/solid";
 import React from "react";
 import { projects } from "../data";
-import logo from './coding.gif'
 
 export default function Projects() {
     return (
@@ -13,8 +12,8 @@ export default function Projects() {
                         Projets
                     </h1>
                     <p className="lg:w-2/3 mx-auto leading-relaxed text-base">
-                        Voici les différents projet que j'ai pu réalisé pendant mon cycle d'ingénieurs.
-                        Ces projet ont été réalisé individuel ou en groupe.
+                        Voici les différents projets que j'ai pu réalisés pendant mon cycle d'ingénieur.
+                        Ces projets ont été réalisés en individuel ou en groupe.
                     </p>
                 </div>
                 <div className="flex flex-wrap -m-4">
