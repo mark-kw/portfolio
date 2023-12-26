@@ -38,21 +38,21 @@ export const projects = [
 ];
 
 export const skills = [
-    "Web", "Programmation", "Base de données", "Mobile"
+    "Frontend", "Backend", "Base de données", "Mobile"
 ]
 
 export const moreSkills = [
     {
-        skill: 'Web',
-        detail: ["react-angular", "php", "html-css-js", "wix-wordpress"]
+        skill: 'Frontend',
+        detail: ["REACT", "ANGULAR", "HTML", "CSS", "JS", "WIX"]
     }, {
-        skill: 'Programmation',
-        detail: ["java", "C", "python"]
+        skill: 'Backend',
+        detail: ["PHP", "JAVA", "PYTHON", "C"]
     }, {
         skill: 'Base de données',
-        detail: ["SQL", "MariaDB", "Mongodb",]
+        detail: ["SQL", "MARIADB", "MONGODB",]
     }, {
         skill: 'Mobile',
-        detail: ["ios", "android", "flutter",]
+        detail: ["IOS", "ANDROID", "FLUTTER",]
     }
 ]

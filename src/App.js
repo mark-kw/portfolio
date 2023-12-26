@@ -13,9 +13,11 @@ export default function App() {
     <main className="text-gray-400 bg-gray-900 body-font">
       <Navbar />
       <About />
+      <hr className="border-t border-gray-800 my-5" />
       <Projects />
+      <hr className="border-t border-gray-800 my-5" />
       <Skills />
-      {/* <Testimonials /> */}
+      <hr className="border-t border-gray-800 my-5" />
       <Contact />
     </main>
   );
