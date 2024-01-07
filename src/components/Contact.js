@@ -5,7 +5,7 @@ export default function Contact() {
         <section id="contact" className="relative pb-4 ">
             <div className="container mx-auto flex justify-center sm:flex-nowrap flex-wrap">
                 <form
-                    netlify
+                    data-netlify="true"
                     name="contact"
                     className="md:w-1/2 mt-8 md:mt-0">
                     <h2 className="text-white sm:text-4xl text-3xl mb-1 font-medium title-font text-center">
