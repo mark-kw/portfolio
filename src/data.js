@@ -7,7 +7,7 @@ export const projects = [
         title: "Design4green",
         subtitle: "HTML-JS-CSS",
         description:
-            "Réalisation d'un site web eco responsable, un pas vers le Numerique Responsable",
+            "Creating an eco-responsible website, a step towards Responsible Numerics.",
         image: Design4Green,
         link: "https://github.com/mark-kw/Design4Green",
     },
@@ -15,7 +15,7 @@ export const projects = [
         title: "ChatBot",
         subtitle: "React-redux",
         description:
-            "Réalisation d'un chat bot avec l'utilisation de la bibliotheque redux",
+            "Creating a chat bot using the redux library.",
         image: chatbot,
         link: "https://github.com/mark-kw/Chatbot/tree/master/mon-app",
     },
@@ -23,7 +23,7 @@ export const projects = [
         title: "Google Photo Flickt",
         subtitle: "Angular",
         description:
-            "Réalisation d'un google photo en angular en utilisant l'api flickr.",
+            "Creation of an angular google photo using the flickr api.",
         image: flickr,
         link: "https://github.com/mark-kw/flickr/tree/master/Projet",
     },

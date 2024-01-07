@@ -1,11 +1,6 @@
 #aboutMe {
-    padding-top: 6em;
+    height: 39em;
     width: 100%;
-    display: flex;
-    -webkit-box-align: center;
-    align-items: center;
-    -webkit-box-pack: justify;
-    justify-content: space-between;
 }
 
 .gif {

@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { Container, Row } from 'react-bootstrap';
 import './Accueil.css'
+import cvPDF from '../doc/cv.pdf';
 
 export default function About({ scrollToProjects }) {
     const [arrowVisible, setArrowVisible] = useState(false);
@@ -13,7 +14,6 @@ export default function About({ scrollToProjects }) {
 
     useEffect(() => {
         const handleScroll = () => {
-            // Si la position de défilement est supérieure à un certain seuil, affiche la flèche
             if (window.scrollY > 250) {
                 setArrowVisible(true);
             } else {
@@ -22,12 +22,10 @@ export default function About({ scrollToProjects }) {
         };
         window.addEventListener("scroll", handleScroll);
 
-        // Retirer le gestionnaire d'événements lorsque le composant est démonté
         return () => {
             window.removeEventListener("scroll", handleScroll);
         };
     }, []);
-
     return (
         <section id="about">
             <Container fluid >
@@ -50,7 +48,7 @@ export default function About({ scrollToProjects }) {
                     <p>HTML . CSS . JavaScript . REACT . PHP . Symfony </p>
                 </Row>
 
-                <a href="#projects" className="btn-project">PROJECTS</a>
+                <a href={cvPDF} download="markkissi.pdf" className="btn-project">RESUME</a>
                 <a href="#contact" className="btn-hire">Hire me</a>
 
                 {!arrowVisible && (

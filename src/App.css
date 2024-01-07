@@ -4,3 +4,7 @@ hr {
     height: 1px;
     margin-bottom: 5rem;
 }
+
+p {
+    font-family: Poppins, sans-serif
+}

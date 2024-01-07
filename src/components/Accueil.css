@@ -95,7 +95,10 @@
 
 .link-gt {
     margin-top: 10px;
-    /* Ajustez la valeur selon votre préférence */
+}
+
+.smooth-scroll {
+    transition: scroll-behavior 0.5s ease-in-out;
 }
 
 
